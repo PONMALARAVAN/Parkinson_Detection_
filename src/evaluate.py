@@ -12,5 +12,5 @@ def evaluate_model(data_dir, model_path):
     print("Classification Report:")
     print(classification_report(y_test, preds))
 
-    print("\nConfusion Matrix:")
+    # print("\nConfusion Matrix:")
     print(confusion_matrix(y_test, preds))
